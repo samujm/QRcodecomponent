@@ -7,11 +7,6 @@
     --dark-blue: hsl(218, 44%, 22%);
 }
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
 body{
     font-family: 'Outfit', sans-serif;
     background-color: var(--light-gray);
@@ -19,37 +14,25 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
 }
 
-.content{
+.card{
     background-color: var(--white);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 25px;
+    width: 300px;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    max-width: 300px;
-    justify-content: center;
-}
+img{
+    border-radius: 25px;
+    max-inline-size: 100%;
+    padding: 15px;
 
-.img{
-    position: relative;
-    width: 270px;
-    height: 270px;
-    background-image: url(../assets/img/image-qr-code.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    margin: 15px auto;
 }
-
-.text{
+.cardInfo{
     margin: 10px;
 }
 
